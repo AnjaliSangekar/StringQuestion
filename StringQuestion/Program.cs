@@ -48,12 +48,12 @@ namespace StringQuestion
 
             Console.WriteLine(s);
 
-            bool m = s.Contains(s2); // Check if str1 contains str2, stores the result in boolean variable 'm'
+            bool m = s.Contains(s2); 
 
-            // Check if the substring exists in the string and output the result
-            if (m) // If 'm' is true, the substring exists in the string
+         
+            if (m) 
                 Console.Write("The substring exists in the string.\n\n");
-            else // If 'm' is false, the substring does not exist in the string
+            else
                 Console.Write("The substring does not exist in the string.\n\n");
         }
     }
